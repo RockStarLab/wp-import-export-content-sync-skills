@@ -1,12 +1,21 @@
 {
   "name": "rockstarlab-wordpress-skills",
-  "owner": {"name": "RockStarLab", "url": "https://wpimportexport.com"},
+  "owner": {
+    "name": "RockStarLab",
+    "url": "https://wpimportexport.com"
+  },
   "plugins": [
     {
       "name": "wordpress-import-export-skills",
       "source": "./",
       "description": "Agent Skills for the Content Sync, Media Sync, Import, Export WordPress plugin (Abilities API).",
-      "skills": ["./skills/wordpress-content-sync","./skills/wordpress-import-export","./skills/wordpress-site-migration","./skills/woocommerce-sync-pro"]
+      "skills": [
+        "./skills/wordpress-content-sync",
+        "./skills/wordpress-import-export",
+        "./skills/wordpress-site-migration",
+        "./skills/woocommerce-sync-pro"
+      ]
     }
-  ]
+  ],
+  "description": "Agent Skills for syncing, importing, exporting and migrating WordPress content with the Content Sync, Media Sync, Import, Export plugin."
 }

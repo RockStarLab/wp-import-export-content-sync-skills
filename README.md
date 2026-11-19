@@ -11,7 +11,7 @@ Agent Skills for [Content Sync, Media Sync, Import, Export with AI Agents Suppor
 
 ## Install
 
-Claude Code: `/plugin marketplace add <github-user>/<repo>` then `/plugin install wordpress-import-export-skills`.
+Claude Code: `/plugin marketplace add RockStarLab/wp-import-export-content-sync-skills` then `/plugin install wordpress-import-export-skills`.
 Other agents: copy the folders from `skills/` into your agent's skills directory.
 
 Requirements: WordPress 6.9+ (Abilities API), the plugin active on every site involved, an administrator application password or the MCP Adapter.
